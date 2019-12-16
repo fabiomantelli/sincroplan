@@ -3,6 +3,8 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import { Home } from './Home';
 import { About } from './About';
 import { Contact } from './Contact';
+import { Technical } from './Technical';
+import { Portfolio } from './Portfolio';
 import { NoMatch } from './NoMatch';
 import { Layout } from './components/Layout';
 import { NavigationBar } from './components/NavigationBar';
@@ -19,6 +21,8 @@ class App extends Component {
             <Switch>
               <Route exact path="/" component={Home} />
               <Route exact path="/about" component={About} />
+              <Route exact path="/technical" component={Technical} />
+              <Route exact path="/portfolio" component={Portfolio} />
               <Route exact path="/contact" component={Contact} />
               <Route component={NoMatch} />
             </Switch>
