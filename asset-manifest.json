@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/sincroplan/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/sincroplan/static/js/main.328edb20.chunk.js",
+    "main.js.map": "/sincroplan/static/js/main.328edb20.chunk.js.map",
+    "runtime-main.js": "/sincroplan/static/js/runtime-main.af06a6eb.js",
+    "runtime-main.js.map": "/sincroplan/static/js/runtime-main.af06a6eb.js.map",
+    "static/js/2.ec57ce60.chunk.js": "/sincroplan/static/js/2.ec57ce60.chunk.js",
+    "static/js/2.ec57ce60.chunk.js.map": "/sincroplan/static/js/2.ec57ce60.chunk.js.map",
+    "index.html": "/sincroplan/index.html",
+    "precache-manifest.f510be11ecfab7ac298a72478544b36b.js": "/sincroplan/precache-manifest.f510be11ecfab7ac298a72478544b36b.js",
+    "service-worker.js": "/sincroplan/service-worker.js",
+    "static/css/main.5ecd60fb.chunk.css.map": "/sincroplan/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/2.ec57ce60.chunk.js.LICENSE": "/sincroplan/static/js/2.ec57ce60.chunk.js.LICENSE",
+    "static/media/electrical.jpg": "/sincroplan/static/media/electrical.307f2f24.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.af06a6eb.js",
+    "static/js/2.ec57ce60.chunk.js",
+    "static/css/main.5ecd60fb.chunk.css",
+    "static/js/main.328edb20.chunk.js"
+  ]
+}
