@@ -21,16 +21,16 @@ function Navbar() {
       <hr className="border-none h-4 bg-black" />
       <button
         onClick={handleMobile}
-        className="md:hidden absolute z-10 right-1 top-8"
+        className="md:hidden absolute z-10 right-8 top-8"
       >
         <Hamburger color={`${openMobile ? "#fff" : "#000"}`} />
       </button>
 
       <div
-        className={`flex items-center justify-center ${
+        className={`flex items-center justify-center h-20 ${
           openMobile
             ? "bg-black translate-y-0 h-mobile"
-            : "-translate-y-0 h-20"
+            : "-translate-y-0 "
         } bg-[#F9F5EE] transition-all duration-500 ease-out`}
       >
         <ul className={`flex gap-4`}>
