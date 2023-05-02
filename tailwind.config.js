@@ -8,7 +8,7 @@ module.exports = {
   theme: {
     extend: {
       height: {
-        'mobile': 'calc(100vh - 16px);'
+        'mobile': 'calc(100vh - 96px);'
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

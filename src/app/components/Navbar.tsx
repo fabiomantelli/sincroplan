@@ -21,7 +21,7 @@ function Navbar() {
       <hr className="border-none h-4 bg-black" />
       <button
         onClick={handleMobile}
-        className="md:hidden absolute z-10 right-8 top-8"
+        className="md:hidden absolute z-10 right-6 top-8"
       >
         <Hamburger color={`${openMobile ? "#fff" : "#000"}`} />
       </button>
@@ -33,11 +33,12 @@ function Navbar() {
             : "-translate-y-0 "
         } bg-[#F9F5EE] transition-all duration-500 ease-out`}
       >
-        <ul className={`flex gap-4`}>
-          <li className="absolute left-8 top-6 md:static">
+        <ul className={`flex gap-10`}>
+          <h1 className="absolute left-6 top-7 md:static">
             SINCRO<strong>PLAN</strong>
-          </li>
-          <ul className="flex flex-col gap-4 md:flex-row">
+          </h1>
+          
+          <ul className="flex flex-col gap-10 md:flex-row">
             <li className="hidden md:flex">QUEM SOMOS</li>
             <li className="hidden md:flex">PROJETOS DESENVOLVIDOS</li>
             <li className="hidden md:flex">SOFTWARES</li>
